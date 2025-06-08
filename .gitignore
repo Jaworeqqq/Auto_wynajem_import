@@ -6,3 +6,5 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+/credentials/*.json
+GOOGLE_SHEETS_CREDENTIALS=C:\Users\micha\OneDrive\Dokumenty\AutoWynajemProj\auto_wynajem_laravel\credentials\import-auta-961aa33f12ea.json

@@ -30,5 +30,11 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'google_sheets' => [
+        'credentials'    => env('GOOGLE_CREDENTIALS_JSON'),
+        'spreadsheet_id' => env('GOOGLE_SHEETS_SPREADSHEET_ID'),
+        'range'          => env('GOOGLE_SHEETS_RANGE', 'Arkusz1!A:Z'),
+    ],
+
 
 ];
